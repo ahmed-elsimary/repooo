@@ -13,11 +13,14 @@
         }
     ],
     "require": {
-        "johnpbloch/wordpress": "^6.0"
+        "johnpbloch/wordpress": "^6.0",
+        "wpackagist-plugin/woocommerce": "6.8.0-beta.1",
+        "wpackagist-plugin/wp-smushit": "3.10.2"
     },
     "config": {
         "allow-plugins": {
-            "johnpbloch/wordpress-core-installer": true
+            "johnpbloch/wordpress-core-installer": true,
+            "composer/installers": true
         }
     },
 
