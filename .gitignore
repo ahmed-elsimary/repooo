@@ -1,2 +1,18 @@
+## exculude for  vendor
 /vendor/
-/wordpress
+##exclude for wordpress
+/wordpress/*
+/wordpress/wp-includes/
+/wordpress/wp-admin/
+## include plugin 
+!/wordpress/wp-content/plugins/
+/wordpress/wp-content/plugins/*
+## include for custom plugin for Ergasti
+!/wordpress/wp-content/plugins/ergasti-*
+
+## include theme
+!/wordpress/wp-content/themes/
+/wordpress/wp-content/themes/*
+## include all  in flatsome theme
+!/wordpress/wp-content/themes/flatsome*
+
